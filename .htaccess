@@ -1,0 +1,11 @@
+# HTID:17828714: DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES BELOW
+DirectoryIndex public/index.php
+php_value display_errors 1
+# DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES ABOVE HTID:17828714:
+
+
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^.*$ public/index.php [NC,L,QSA]
+

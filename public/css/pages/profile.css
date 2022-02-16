@@ -1,0 +1,111 @@
+body {
+    background-color: #fff;
+}
+.section {
+    margin-top: 40px;
+}
+.section .submit-edit-primary {
+    padding: 9px 45px;
+    margin-bottom: 2rem;
+    border-radius: 20px;
+    background-color: #16bcdc;
+    border: none;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 13px;
+    color: #fff;
+    -webkit-transition: .2s opacity;
+    transition: .2s opacity;
+}
+.section .submit-edit-primary:hover {
+    color: #fff;
+    opacity: .9;
+    cursor: pointer;
+}
+.section .infor-user-title {
+    display: flex;
+    align-self: center;
+}
+.section .infor-user-title .infor-user-title-img {
+    vertical-align: middle;
+    align-self: center;
+    font-size: 36px;
+    margin-right: 10px;
+}
+.section .infor-user-title .infor-user-title-items {
+    padding-left: 10px;
+}
+.section .infor-user {
+    display: inline-flex;
+    margin-top: 40px;
+}
+.section .infor-user i {
+    font-size: 18px;
+    background-color: #e5e5e5;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 50%;
+    color: #FFF;
+}
+.section .infor-user h2 {
+    padding-left: 10px;
+}
+
+.section .infor-user-items {
+    margin-top: 40px;
+}
+.section .infor-user-items .input-form {
+    margin-bottom: 2rem;
+}
+.section .infor-user-items .label {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: 1px;
+    display: inline-block;
+    margin-bottom: 0.75rem;
+}
+.section .infor-user-items .hidden-pass-btn {
+    display: inline-block;
+}
+.section .infor-user-items .form-control {
+    height: 52px;
+    font-size: 16px;
+    border-radius: 40px;
+    box-shadow: none;
+    background: transparent;
+    padding-left: 40px;
+    padding-right: 20px;
+    font-weight: 400;
+    line-height: 1.5;
+    display: block;
+    width: auto;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+    overflow: visible;
+    border: 1px solid #e5e5e5;
+}
+.section .infor-user-items .form-icon {
+    position: absolute;
+    top: 48%;
+    left: 15px;
+    margin-top: 10px;
+}
+.section .infor-user-items .form-icon-edit {
+    color: #2a6694;
+}
+.section .infor-user-items .form-icon-edit:hover {
+    color: #1a77bf;
+    cursor: pointer;
+}
+.section .infor-user-items .form-icon-hidden-password {
+    vertical-align: middle;
+    cursor: pointer;
+}
+.section .infor-user-items .form-icon-hidden-password:hover {
+    color: #1a77bf;
+}
+.section .infor-user-items .form-icon-hidden-password.pass-word-lock-primary {
+    display: none;
+}

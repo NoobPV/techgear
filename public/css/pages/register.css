@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.register-cover {
+  background-image: url(../../img/lg/register2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 800px;
+}
+.container-register-primary {
+  position: absolute;
+  top: 10px;
+  left: 120px;
+}
+.container-register-primary .register-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.container-register-primary .register-title img {
+  width: 100px;
+}
+.container-register-primary .register-title h1 {
+  color: #373535;
+}
+.register-input-form-cover form {
+  display: flex;
+  align-items: flex-end;
+}
+.register-input-form-cover .register-user-infor {
+  width: 100%;
+}
+.register-input-form-cover .register-form-input-primary {
+  position: relative;
+}
+.register-input-form-cover .register-form-input-primary .register-infor-icon {
+  position: absolute;
+  left: 5px;
+  top: 12.5px;
+}
+.register-input-form-cover .register-form-input-primary input {
+  border-bottom: 3px solid #e3e3e3;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  background-color: transparent !important;
+  padding: 15px 0;
+  padding-left: 10%;
+  max-width: 100%;
+  margin-bottom: 15px;
+  width: 90%;
+  display: inline-block;
+}
+.register-input-form-cover .register-form-input-primary .show-pass-register {
+  position: absolute;
+  right: 40px;
+  top: 15.5px;
+}
+.register-input-form-cover .register-gender {
+  display: flex;
+  justify-content: space-between;
+}
+.register-input-form-cover .register-gender .register-gender-input {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 30px;
+}
+.register-input-form-cover .register-gender .register-gender-input .box-radio {
+  margin-left: 10px;
+}
+.register-input-form-cover .register-submit-btn-primary input {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+  background-color: #39b5e9;
+  color: #fff;
+  margin-bottom: 20px;
+}
+.register-input-form-cover .register-submit-btn-primary input:hover {
+  cursor: pointer;
+  background-color: #4cc6f7;
+  color: #373535;
+  transition: all 0.2s;
+}

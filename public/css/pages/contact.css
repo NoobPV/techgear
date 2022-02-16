@@ -1,0 +1,122 @@
+body {
+    background-color: #fff!important;
+}
+li {
+    list-style-type: none;
+}
+.catagory-pages-header-home {
+    display: flex;
+    margin-top: 30px;
+}
+.catagory-pages-header-home li {
+    margin-right: 20px;
+}
+.catagory-pages-header-home li a {
+    color: #666;
+}
+.section-contact {
+    margin-bottom: 80px;
+}
+.contact-title {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.contact-contents {
+    margin: 0px 0px 20px;
+    font-size: 16px;
+    line-height: 24px;
+}
+.contact-infor ul {
+    margin-left: 20px;
+}
+.contact-infor ul li {
+    list-style-type: disc;
+    margin-bottom: 20px;
+}
+.send-emai {
+    padding-left: 30px;
+}
+.send-emai .input-contact-style {
+    height: 40px;
+    border: 2px solid #eceef2;
+    width: 50%;
+    padding: 0px 15px;
+    margin-bottom: 15px;
+    -webkit-transition: 0.2s border;
+    transition: 0.2s border;
+}
+.send-emai .input-contact-style:hover {
+    border: 2px solid #bfc0c3;
+}
+.send-emai .input-contact-style.textarea-style {
+    height: 90px;
+    padding: 15px;
+    width: 100%;
+}
+.send-emai .style-button-send-email {
+    padding: 9px 45px;
+    border: none;
+    border-radius: 5px;
+    background-color: #263c97;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 13px;
+    color: #fff;
+    -webkit-transition: .2s opacity;
+    transition: .2s opacity;
+    margin-right: 15px;
+}
+.send-emai .style-button-send-email:hover {
+    color: #fff;
+    opacity: .9;
+    cursor: pointer;
+}
+/*for confirm contact form submit*/
+.confirm-contact-form {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    width: auto;
+    height: auto;
+    display: none;
+    background-color: rgba(0,0,0,0.3);
+    z-index: 9999;
+}
+.confirm-contact-form .confirm-contact-contents {
+    position: absolute;
+    top: 200px;
+    right: 450px;
+    left: 30%;
+    width: 300px;
+    height: 200px;
+    display: block;
+    background-color: #FFF;
+    border-radius: 5px;
+}
+.confirm-contact-form .confirm-contact-contents .confirm-contact-status {
+    height: 70%;
+    line-height: 150px;
+    text-align: center;
+    vertical-align: middle;
+
+}
+.confirm-contact-form .confirm-contact-contents .confirm-contact-button {
+    text-align: right;
+    padding-right: 30px;
+    border-top: 1px solid #C3C3C3;
+    height: 30%;
+}
+.confirm-contact-form .confirm-contact-contents .confirm-contact-button button {
+    margin-top: 20px;
+    margin-right: 5px;
+    padding: 2.5px 20px;
+    background-color: rgb(239, 239, 239);
+    border-color: rgb(133, 133, 133);
+    color: black;
+}
+.confirm-contact-form .confirm-contact-contents .confirm-contact-button button:hover {
+    cursor: pointer;
+    background-color: #e2e0e0;
+}

@@ -1,0 +1,18 @@
+{
+    "name": "project/phpmvc",
+    "authors": [
+        {
+            "name": "Team 2",
+            "email": "thangndps14667@fpt.edu.vn"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "app\\": "./"
+        }
+    },
+    "require": {
+        "vlucas/phpdotenv": "^5.0",
+        "phpmailer/phpmailer": "^6.5"
+    }
+}
